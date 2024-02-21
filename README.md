@@ -40,11 +40,11 @@ while(True):
     result=False
 viedoCaptureObject.release()
 cv2.destroyAllWindows()
-```
+
 
 
 ## ii) Display the video
-```
+
 import numpy as np
 import cv2
 cap=cv2.VideoCapture(0)
@@ -59,7 +59,7 @@ cv2.destroyAllWindows()
 
 
 ## iii) Display the video by resizing the window
-```
+
 import numpy as np
 import cv2
 cap=cv2.VideoCapture(0)
@@ -78,11 +78,11 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
-```
+
 
 
 ## iv) Rotate and display the video
-```
+
 import numpy as np
 import cv2
 cap=cv2.VideoCapture(0)
