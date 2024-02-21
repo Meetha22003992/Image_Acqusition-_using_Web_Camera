@@ -55,7 +55,7 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
-```
+
 
 
 ## iii) Display the video by resizing the window
